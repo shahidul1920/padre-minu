@@ -1,16 +1,21 @@
-const Pizza = (props) => {
-  return React.createElement("h1", {}, props.name);
+import React from "react";
+import { createRoot } from "react-dom";
+
+
+
+const Pizza = () => {
+  return React.createElement("h1", {}, "fuck man");
 };
 
 const App = () => {
-    debugger;
   return React.createElement("div", {}, [
-    React.createElement(Pizza, { name: "shakil's pizza" }),
-
-    React.createElement(Pizza, { name: "cheezy pizza" }),
+    React.createElement(Pizza),
   ]);
 };
 
 const containter = document.getElementById("root");
-const root = ReactDOM.createRoot(containter);
+console.log('hekko');
+
+
+const root = createRoot(containter);
 root.render(React.createElement(App));
