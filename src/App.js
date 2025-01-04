@@ -11,6 +11,7 @@ const App = () => {
   return React.createElement("div", {}, [
     React.createElement(Pizza),
     React.createElement(Pizza),
+    React.createElement(Pizza),
   ]);
 };
 
