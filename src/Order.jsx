@@ -35,9 +35,9 @@ export default function Order() {
                             </span>
                         </div>
                     </div>
-                    <button type='submit'>Buy Now</button>
+                    <button type='submit'>Add to cart</button>
                     <div className="order-pizza">
-                        <Pizza name="pepperoni" description="another pep pizza" image="/public/pizzas/pepperoni" />
+                        <Pizza name="pepperoni" description="another pep pizza" image="/public/pizzas/pepperoni.webp" />
                         <p>$13.2</p>
                     </div>
                 </form>

@@ -7,8 +7,6 @@ const App = () => {
   return (
     <>
       <div>
-        <h1>podre pad</h1>
-        <Pizza name="shakil" image="/public/pizzas/big_meat.webp" />
         <Order />
       </div>
     </>
