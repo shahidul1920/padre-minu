@@ -1,6 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import Pizza from "./Pizza";
+import Order from "./Order";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div>
         <h1>podre pad</h1>
         <Pizza name="shakil" image="/public/pizzas/big_meat.webp" />
+        <Order />
       </div>
     </>
   );
